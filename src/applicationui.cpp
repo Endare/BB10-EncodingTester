@@ -78,9 +78,9 @@ QString ApplicationUI::getDecodedString(QByteArray content, QString encoding)
 		qDebug() << "Assuming UCS4 encoding";
 		dataString = QString::fromUcs4((uint *)content.data(), content.size()/4);
 	}
-	else if(encoding.compare(QString("UFT16")) == 0)
+	else if(encoding.compare(QString("UTF16")) == 0)
 	{
-		qDebug() << "Assuming UFT16 encoding";
+		qDebug() << "Assuming UTF16 encoding";
 		dataString = QString::fromUtf16((ushort *)content.data(), content.size()/2);
 	}
 	else if(encoding.compare(QString("Latin1")) == 0)

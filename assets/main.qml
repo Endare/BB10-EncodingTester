@@ -10,7 +10,7 @@ Page {
             orientation: LayoutOrientation.TopToBottom
         }
         Label {
-            text: qsTr("Encoding tester")
+            text: qsTr("BB10 Encoding tester")
             textStyle.base: SystemDefaults.TextStyles.BigText
             verticalAlignment: VerticalAlignment.Center
             horizontalAlignment: HorizontalAlignment.Center
@@ -22,13 +22,13 @@ Page {
                 spaceQuota: 3
             }
             Option {
-                text: "http://beread.azurewebsites.net/?url=http://fr.m.wikipedia.org/wiki/Seconde_Guerre_mondiale"
-                value: "http://beread.azurewebsites.net/?url=http://fr.m.wikipedia.org/wiki/Seconde_Guerre_mondiale"
+                text: "http://www.blackberry.com"
+                value: "http://www.blackberry.com"
                 selected: true
             }
             Option {
-                text: "http://www.citroen.fr/home/"
-                value: "http://www.citroen.fr/home/"
+                text: "http://www.france.fr/"
+                value: "http://www.france.fr/"
             }
             Option {
                 text: "http://www.china-airlines.co.jp"
@@ -63,8 +63,8 @@ Page {
                     value: "UCS4"
                 }
                 Option {
-                    text: "UFT16"
-                    value: "UFT16"
+                    text: "UTF16"
+                    value: "UTF16"
                 }
                 Option {
                     text: "Latin1"

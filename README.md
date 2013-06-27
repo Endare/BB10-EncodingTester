@@ -4,7 +4,9 @@
 
 ## What is it?
 
-We recently had an issue with the character encoding of the result of a webservice. Since it was rather annoying to debug it in the app itself we quicly wrote a test app, the BB10-EncodingTester. This is it! You can select one of the URLs, select the encoding format and admire the output. Simple? Yes, but very handy to check the result of a webservice with special characters.
+We recently had an issue with the character encoding of the result of a webservice. Since it was rather annoying to debug it in the app itself we quickly wrote a test app, the BB10-EncodingTester. This is it! You can select one of the URLs, select the encoding format and admire the output. Simple? Yes, but very handy to check the result of a webservice with special characters.
+
+WARNING: it takes a while for bigger pages to allow scrolling.
 
 ## How do I build it?
 

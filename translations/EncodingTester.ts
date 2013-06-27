@@ -5,7 +5,7 @@
     <name>main</name>
     <message>
         <location filename="../assets/main.qml" line="13"/>
-        <source>Encoding tester</source>
+        <source>BB10 Encoding tester</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
